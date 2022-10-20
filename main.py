@@ -14,7 +14,6 @@ def decisonTree(answers):
         d = {'Flash': 1, 'Hulk': 0, 'Mulher invisivel':2 , 'Superman' :3}
         df['Hero'] = df['Hero'].map(d)
         
-
         features = ['Poder especial', 'perigo', 'considera', 'Universo', 'mundo', 'medo', 'precisa','cor']
         X = df[features]
         y = df['Hero']
