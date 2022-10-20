@@ -77,5 +77,3 @@ if __name__ == '__main__':
     hero = decisonTree(answers)
     getSimilarHero(hero)
   
-
-    
